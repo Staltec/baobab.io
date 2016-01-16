@@ -4,15 +4,15 @@
 Baobab.js with Socket.IO: Proof of concept.
 
 Baobab tree data manipulation through socket response:
-tree.set
-tree.unset
-tree.apply
-tree.push
-tree.unshift
-tree.splice
-tree.concat
-tree.merge
-tree.deepMerge
+- tree.set
+- tree.unset
+- tree.apply
+- tree.push
+- tree.unshift
+- tree.splice
+- tree.concat
+- tree.merge
+- tree.deepMerge
 
 
 ## Client-side usage
