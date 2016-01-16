@@ -18,7 +18,7 @@ Baobab tree data manipulation through socket response:
 ## Client-side usage
 
 ```js
-    import BaobabIO from './common/baobab.io';
+    import BaobabIO from 'baobab.io';
 
     const tree = new BaobabIO ({ });
     
