@@ -3,6 +3,7 @@
 ## About module
 Baobab.js with Socket.IO: Proof of concept.
 
+Baobab tree data manipulation through socket response:
 tree.set
 tree.unset
 tree.apply
