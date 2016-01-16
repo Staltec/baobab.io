@@ -35,7 +35,7 @@ class BaobabIO extends Baobab {
                 socket.on(BAOBAB_MESSAGE_PREFIX + method, (...arg) => this[method](...arg));
         });
 
-            if (!this._namespaces) this._namespaces = {};
+        if (!this._namespaces) this._namespaces = {};
             this._namespaces[namespace] = socket;
         }
 
@@ -49,7 +49,7 @@ class BaobabIO extends Baobab {
                     return memo;
 
                 }, {
-                    silent: () =>  socket.emit(cmd, ...params)
+                    void: () =>  socket.emit(cmd, ...params)
                 });
             }
         }
