@@ -22,7 +22,7 @@ tree.deepMerge
 
     const tree = new BaobabIO ({ });
     
-    // Simple baobab set to brunch 'users/list' 
+    // Simple baobab set to branch 'users/list' 
     tree.set(['users', 'list'], []);
     
     
